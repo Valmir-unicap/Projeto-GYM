@@ -8,16 +8,49 @@
 }
 
 body{
-    background-color: black;
-    color: white;
-    font-size: 22px;
-    font-family: 'Krona One','sans-serif';
+    background-color: #c92cc9;
+    color: white;   
 }
 
-.test{ /* falta consertar */
+.cabecalho{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
-    padding: 16px;
+    font-size: 22px;
+    margin:auto;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
 }
+
+.conteudo{
+    background-color: #c92cc9;
+    color: white;
+    font-size: 16px;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    font-family: 'Krona One','sans-serif';
+    font-size: 32px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+#link{
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.rodape{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
