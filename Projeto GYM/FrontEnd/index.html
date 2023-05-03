@@ -14,16 +14,16 @@
         <nav>
             <ul>
                 <a href="" id="link">Home</a>
-                <a href="" id="link">Tríceps</a>
-                <a href="" id="link">Quadril</a>
-                <a href="" id="link">Perna</a>
-                <a href="" id="link">Abdominal</a>
-                <a href="" id="link">Resistência</a>              
+                <a id="linkTriceps" onclick="exibirExercicio('triceps')">Tríceps</a>
+                <a id="link" onclick="exibirExercicio('quadril')">Quadril</a>
+                <a id="link" onclick="exibirExercicio('perna')">Perna</a>
+                <a id="link" onclick="exibirExercicio('abdominal')">Abdominal</a>
+                <a id="link" onclick="exibirExercicio('resistencia')">Resistência</a>              
             </ul>
         </nav>
     </header>
 
-    <hr />
+    <hr/>
         
     <main class="conteudo">
          <!-- Todo conteúdo é escrito aqui dentro-->
@@ -34,35 +34,35 @@
             </section>
          </div>
 
-        <div class="triceps">
+        <div class="exercicio exercicio_triceps">
             <section>
                 <!-- Tríceps -->
                 <h1 class="conteudo-titulo">Atividades físicas para exercitar Tríceps</h1>
             </section>
         </div>
 
-        <div class="quadril">
+        <div class="exercicio exercicio_quadril">
             <section>
                 <!-- Quadril -->
                 <h1 class="conteudo-titulo">Atividades físicas para exercitar Quadril</h1>
             </section>
         </div>
 
-        <div class="perna">
+        <div class="exercicio exercicio_perna">
             <section>
                 <!-- Perna -->
                 <h1 class="conteudo-titulo">Atividades físicas para exercitar Perna</h1>
             </section>
         </div>
 
-        <div class="abdominal">
+        <div class="exercicio exercicio_abdominal">
             <section>
                 <!-- Abdominal -->
                 <h1 class="conteudo-titulo">Atividades físicas para exercitar Abdominal</h1>
             </section>
         </div>
 
-        <div class="resistência">
+        <div class="exercicio exercicio_resistencia">
             <section>
                 <!-- Resistência -->
                 <h1 class="conteudo-titulo">Atividades físicas para exercitar Resistência</h1>
@@ -76,6 +76,8 @@
     <footer class="rodape">
         <h2>Projeto GYM © 2023</h2>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
