@@ -11,10 +11,10 @@
 
 <body>
     <header class="cabecalho">
-        <nav>
+        <nav class="navegacao">
             <ul>
                 <a href="" id="link">Home</a>
-                <a id="linkTriceps" onclick="exibirExercicio('triceps')">Tríceps</a>
+                <a id="link" onclick="exibirExercicio('triceps')">Tríceps</a>
                 <a id="link" onclick="exibirExercicio('quadril')">Quadril</a>
                 <a id="link" onclick="exibirExercicio('perna')">Perna</a>
                 <a id="link" onclick="exibirExercicio('abdominal')">Abdominal</a>
@@ -27,15 +27,18 @@
         
     <main class="conteudo">
          <!-- Todo conteúdo é escrito aqui dentro-->
-         <div class="home">
+         <div class="exercicio exercicio_home">
             <section>
                 <!-- Home -->
                 <h1 class="conteudo-titulo">Atividades físicas para fazer em casa</h1>
-                <p class="descricao-home">&emsp;A realização de exercícios em casa é uma forma mais fácil e acessível de manter a saúde em dia. Os exercícios em casa podem ser praticados a qualquer hora, se adaptando à rotina de cada um. O treino em casa ajuda a reduzir os níveis de hormônios estressantes, diminuindo a sensação de insatisfação e de sintomas depressivos e ansiogênicos.</br> E melhora também a qualidade do sono, pois a liberação de determinados hormônios influenciam no nosso ciclo sono-vigília<p>
 
-              
-                <img class="img-home" src="./assets/img/Arnold-Schwarzenegger-Posing-PNG.png" alt="">
-                
+                <p class="descricao-home">A realização de exercícios em casa é uma forma mais fácil e acessível de manter a saúde em dia. 
+                    Os exercícios em casa podem ser praticados a qualquer hora, se adaptando à rotina de cada um. 
+                    O treino em casa ajuda a reduzir os níveis de hormônios estressantes, diminuindo a sensação de insatisfação e de sintomas depressivos e ansiogênicos.
+                    <br/> E melhora também a qualidade do sono, pois a liberação de determinados hormônios influenciam no nosso ciclo sono-vigília</p>
+
+                <img class="img-home" src="./assets/img/Arnold-Schwarzenegger-Posing-PNG.png" alt="Foto de um pessoa fazendo musculação"/>
+    
             </section>
          </div>
 
@@ -79,7 +82,7 @@
     <hr />
 
     <footer class="rodape">
-        <h2>Projeto GYM © 2023</h2>
+        <h2>© Projeto Gym 2023</h2>
     </footer>
 
     <script src="script.js"></script>
