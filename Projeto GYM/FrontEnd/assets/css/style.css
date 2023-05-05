@@ -10,6 +10,7 @@
 body{
     background-color: #c92cc9;
     color: white;   
+    font-family: 'Krona One','sans-serif';
 }
 
 .cabecalho{
@@ -33,13 +34,11 @@ body{
 
 .conteudo-titulo{
     text-align: center;
-    font-family: 'Krona One','sans-serif';
     font-size: 32px;
     margin: 1rem 1rem 1rem 1rem;
 }
 
 .descricao-home{
-    font-family: 'Krona One','sans-serif';
     margin: 1rem 1rem 1rem 1rem;
 }
 
@@ -60,6 +59,13 @@ a{
 
 #link:hover{
     color: orange;
+}
+
+.exercicios {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 10px;
 }
 
 .rodape{
