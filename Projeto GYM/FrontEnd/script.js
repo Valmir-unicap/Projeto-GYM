@@ -17,4 +17,4 @@
            exercicioSelecionado.style.display = "flex";
        });
 
-       exibirExercicio('home');
+       exibirExercicio('triceps');
