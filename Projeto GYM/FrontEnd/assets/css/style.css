@@ -13,10 +13,6 @@ body{
     font-family: 'Krona One','sans-serif';
 }
 
-.page-margin {
-    margin: 7vh 30vh;
-}
-
 .cabecalho{
     height: 40px;
     display: flex;
@@ -24,7 +20,7 @@ body{
     justify-content: space-between;  
     text-decoration: none;
     font-size: 18px;
-    margin:auto;
+    margin: auto;
     color:white;
     background-color: #0c0b0c;
     padding: 20px;
@@ -41,7 +37,7 @@ body{
 .conteudo{
     color: black;   
     font-size: 16px;
-
+    margin: 7vh 30vh;
 }
 
 .conteudo-titulo{
@@ -112,4 +108,30 @@ a{
     background-color:#0c0b0c;
     text-align: center;
     padding: 20px;
+}
+
+#botao{
+    background-color:tan;
+    color:black;
+    width: 25%;
+    font-size: 34px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 50px;
+}
+
+.cronometro_exercitar_tempo{
+    text-align: center;
+    font-size: 58px;
+    padding: 30px;
+}
+
+.cronometro{
+    background-color: #f5f5f5d7;
+    border-radius: 20px;
+    padding: 32px;
+}
+
+#cronometro_exercitar{
+    font-size: 26px;
 }
