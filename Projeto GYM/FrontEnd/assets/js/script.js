@@ -15,6 +15,8 @@
            });          
            const exercicioSelecionado = document.querySelector(".exercicio_" + exercicio);
            exercicioSelecionado.style.display = "flex";
+           exercicioSelecionado.scrollIntoView({ behavior: 'smooth' });
+
        });
 
        exibirExercicio('triceps');

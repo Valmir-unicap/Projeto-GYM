@@ -10,117 +10,125 @@
 </head>
 
 <body>
+
     <header class="cabecalho">
         <nav class="navegacao">
+
+
             <ul>
-                <a href="" id="link">Home</a>
-                <a id="link" onclick="exibirExercicio('triceps')">Tríceps</a>
-                <a id="link" onclick="exibirExercicio('quadril')">Quadril</a>
-                <a id="link" onclick="exibirExercicio('perna')">Perna</a>
-                <a id="link" onclick="exibirExercicio('abdominal')">Abdominal</a>
-                <a id="link" onclick="exibirExercicio('resistencia')">Resistência</a>              
+                <a href="#" class="link"><img src="assets/img/gym.png" alt=""></a>
+                <a class="link" onclick="exibirExercicio('triceps')">Tríceps</a>
+                <a class="link" onclick="exibirExercicio('quadril')">Quadril</a>
+                <a class="link" onclick="exibirExercicio('perna')">Perna</a>
+                <a class="link" onclick="exibirExercicio('abdominal')">Abdominal</a>
+                <a class="link" onclick="exibirExercicio('resistencia')">Resistência</a>              
             </ul>
         </nav>
     </header>
 
     <hr/>
+
+    <section class="page-margin">
         
-    <main class="conteudo">
-         <!-- Todo conteúdo é escrito aqui dentro-->
-         <div class="">
-            <section>
-                <!-- Home -->
-                <h1 class="conteudo-titulo">Atividades físicas para fazer em casa</h1>
-
-                <p class="descricao-home">A realização de exercícios em casa é uma forma mais fácil e acessível de manter a saúde em dia. 
-                    Os exercícios em casa podem ser praticados a qualquer hora, se adaptando à rotina de cada um. 
-                    O treino em casa ajuda a reduzir os níveis de hormônios estressantes, diminuindo a sensação de insatisfação e de sintomas depressivos e ansiogênicos.
-                    <br/> E melhora também a qualidade do sono, pois a liberação de determinados hormônios influenciam no nosso ciclo sono-vigília</p>
-
-                <img class="img-home" src="./assets/img/Arnold-Schwarzenegger-Posing-PNG.png" alt="Foto de um pessoa fazendo musculação"/>
+        <main class="conteudo">
+             <!-- Todo conteúdo é escrito aqui dentro-->
+             <div class="container">
+                <section>
+                    <!-- Home -->
+                    <h1 class="conteudo-titulo">Atividades físicas para fazer em casa</h1>
     
-            </section>
-         </div>
-
-        <div class="exercicio exercicio_triceps">
-            <section>
-                <div class="exercicios">
-                    <!-- Tríceps -->
-                    <h1 class="conteudo-titulo">Atividades físicas para exercitar Tríceps</h1>
-                    <p>Exercícios de Tríceps servem para trabalhar os músculos da parte de trás do braço.Quanto mais fortes forem os tríceps, maiores a força e estabilidade dos ombros e cotovelos, aumentando assim a funcionalidade, flexibilidade e amplitude de movimento dos seus braços, facilitando seu desempenho nas tarefas diárias, bem como nos esportes que exijam movimentos e força dos membros superiores, como tênis, natação e basquete.</p>
-                    <p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/GnS9J2rfPys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </p>
-                </div>                
-            </section>
-        </div>
-
-        <div class="exercicio exercicio_quadril">
-            <section>
-                <div class="exercicios">
-                    <!-- Quadril -->
-                    <h1 class="conteudo-titulo">Atividades físicas para exercitar Quadril</h1>                
-                </div>                
-            </section>
-        </div>
-
-        <div class="exercicio exercicio_perna">
-            <section>
-                <div class="exercicios">
-                    <!-- Perna -->
-                    <h1 class="conteudo-titulo">Atividades físicas para exercitar Perna</h1>
-                    <p>
-                        O treino de perna é essencial não apenas pela estética, mas também para coluna lombar. Sem contar que ele acelera o crescimento de outros músculos e recruta massa muscular. Assim, mesmo exercitando mais uma parte do corpo, o resultado vai ser sentido de uma forma geral.
-                    </p>
-                    <p>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PBAN_OeKOAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </p>
-                </div>                
-            </section>
-        </div>
-
-        <div class="exercicio exercicio_peito">
-            <section>
-                <div class="exercicios">
-                    <!-- Peito -->
-                    <h1 class="conteudo-titulo">Atividades físicas para exercitar Perna</h1>
-                    <p>
-                        O músculo peitoral maior contribui na estabilização da articulação escapuloumeral e escapulotorácica e contribui para estabilização do tronco.As diversas variações do treino de peito nos permitem dar ênfase em cada região dessa musculatura, mas lembrando sempre que o músculo é recrutado em sua totalidade.
-                    </p>
-                    <p>
-                        <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </p>
-                </div>                
-            </section>
-        </div>
-
-        <div class="exercicio exercicio_abdominal">
-            <section>
-                <div class="exercicios">
-                    <!-- Abdominal -->
-                    <h1 class="conteudo-titulo">Atividades físicas para exercitar Abdominal</h1>
-                </div>                
-            </section>
-        </div>
-
-        <div class="exercicio exercicio_resistencia">
-            <section>
-                <div class="exercicios">
-                    <!-- Resistência -->
-                    <h1 class="conteudo-titulo">Atividades físicas para exercitar Resistência</h1>
-                </div>                
-            </section>
-        </div>
-
-    </main>
-
+                    <p class="descricao-home">A realização de exercícios em casa é uma forma mais fácil e acessível de manter a saúde em dia. 
+                        Os exercícios em casa podem ser praticados a qualquer hora, se adaptando à rotina de cada um. 
+                        O treino em casa ajuda a reduzir os níveis de hormônios estressantes, diminuindo a sensação de insatisfação e de sintomas depressivos e ansiogênicos.
+                        <br/> E melhora também a qualidade do sono, pois a liberação de determinados hormônios influenciam no nosso ciclo sono-vigília</p>
+    
+                    <img class="img-home" src="./assets/img/Arnold-Schwarzenegger-Posing-PNG.png" alt="Foto de um pessoa fazendo musculação"/>
+        
+                </section>
+             </div>
+    
+            <div class="container exercicio exercicio_triceps">
+                <section>
+                    <div class="exercicios">
+                        <!-- Tríceps -->
+                        <h1 class="conteudo-titulo">Atividades físicas para exercitar Tríceps</h1>
+                        <p class="conteudo-exercicio">Exercícios de Tríceps servem para trabalhar os músculos da parte de trás do braço.Quanto mais fortes forem os tríceps, maiores a força e estabilidade dos ombros e cotovelos, aumentando assim a funcionalidade, flexibilidade e amplitude de movimento dos seus braços, facilitando seu desempenho nas tarefas diárias, bem como nos esportes que exijam movimentos e força dos membros superiores, como tênis, natação e basquete.</p>
+                        <p class="iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/GnS9J2rfPys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </p>
+                    </div>                
+                </section>
+            </div>
+    
+            <div class="container exercicio exercicio_quadril">
+                <section>
+                    <div class="exercicios">
+                        <!-- Quadril -->
+                        <h1 class="conteudo-titulo">Atividades físicas para exercitar Quadril</h1>                
+                    </div>                
+                </section>
+            </div>
+    
+            <div class="container exercicio exercicio_perna">
+                <section>
+                    <div class="exercicios">
+                        <!-- Perna -->
+                        <h1 class="conteudo-titulo">Atividades físicas para exercitar Perna</h1>
+                        <p class="conteudo-exercicio">
+                            O treino de perna é essencial não apenas pela estética, mas também para coluna lombar. Sem contar que ele acelera o crescimento de outros músculos e recruta massa muscular. Assim, mesmo exercitando mais uma parte do corpo, o resultado vai ser sentido de uma forma geral.
+                        </p>
+                        <p class="iframe">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/PBAN_OeKOAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </p>
+                    </div>                
+                </section>
+            </div>
+    
+            <div class="container exercicio exercicio_peito">
+                <section>
+                    <div class="exercicios">
+                        <!-- Peito -->
+                        <h1 class="conteudo-titulo">Atividades físicas para exercitar Perna</h1>
+                        <p class="conteudo-exercicio">
+                            O músculo peitoral maior contribui na estabilização da articulação escapuloumeral e escapulotorácica e contribui para estabilização do tronco.As diversas variações do treino de peito nos permitem dar ênfase em cada região dessa musculatura, mas lembrando sempre que o músculo é recrutado em sua totalidade.
+                        </p>
+                        <p class="iframe">
+                            <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </p>
+                    </div>                
+                </section>
+            </div>
+    
+            <div class="container exercicio exercicio_abdominal">
+                <section>
+                    <div class="exercicios">
+                        <!-- Abdominal -->
+                        <h1 class="conteudo-titulo">Atividades físicas para exercitar Abdominal</h1>
+                    </div>                
+                </section>
+            </div>
+    
+            <div class="container exercicio exercicio_resistencia">
+                <section>
+                    <div class="exercicios">
+                        <!-- Resistência -->
+                        <h1 class="conteudo-titulo">Atividades físicas para exercitar Resistência</h1>
+                    </div>                
+                </section>
+            </div>
+    
+        </main>
+    
+    </section>
     <hr />
+
+
 
     <footer class="rodape">
         <h2>© Projeto Gym 2023</h2>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
