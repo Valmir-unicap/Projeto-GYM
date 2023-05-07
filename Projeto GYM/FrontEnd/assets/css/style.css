@@ -53,6 +53,7 @@ body{
 .img-home{
     display: block;
     margin: 1rem auto;
+    height: 400px;
 }
 
 a{
