@@ -131,6 +131,18 @@
                 <script src="assets/js/timer.js"></script> 
             </div>
         </section>
+    
+        <div class="container">
+            <section>
+                <h1 class="conteudo-titulo">Deseja calcular seu IMC?</h1>
+                    <label for="Altura">Altura</label>
+                    <input type="text" value="" name="altura" id="altura" placeholder="cm">
+
+                    <label for="Peso">Peso</label>
+                    <input type="text" value="" name="peso" id="peso" placeholder="kg">
+                <button onclick="calcularIMC()">Calcular</button>
+            </section>
+        </div>
             
     </main>
 
@@ -138,7 +150,9 @@
         <h2>© Projeto Gym 2023</h2>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/imc.js"></script>
     
 </body>
 </html>
