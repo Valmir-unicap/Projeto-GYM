@@ -115,15 +115,17 @@ a{
     background-color:tan;
     color:black;
     width: 25%;
-    font-size: 34px;
+    height: 50px;
+    font-size: 26px;
     margin-left: 35px;
     margin-right: 35px;
     border-radius: 50px;
+    border-color: black;
 }
 
 .cronometro_exercitar_tempo{
     text-align: center;
-    font-size: 58px;
+    font-size: 50px;
     padding: 30px;
 }
 
@@ -135,4 +137,42 @@ a{
 
 #cronometro_exercitar{
     font-size: 26px;
+    text-align: center;
+}
+
+.imc{
+    background-color: #f5f5f5d7;
+    border-radius: 20px;
+    padding: 32px;
+    margin-top: 52px;
+}
+
+.imc_titulo{
+    text-align: center;
+    font-size: 26px;
+    padding: 12px;
+}
+
+.imc_conteudo{
+    text-align: center;
+    font-size: 26px;
+    padding: 22px;
+}
+
+.imc_conteudo_campo{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 26px;
+    text-align: center;
+}
+
+.imc_conteudo_botao{
+    width: 200px;
+    height: 46px;
+    border-radius: 26px;
+    font-size: 26px;
+    background-color: tan;
+    margin-top: 32px;
+    border-color: black;
 }
