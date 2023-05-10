@@ -4,7 +4,7 @@
 
 #### O que e Projeto Gym?
 - É um website o qual incentiva a fazer exercícios físicos. 
-- Neste site você pode consultar alguns exercícios para fazer em casa, com vídeos e mini tutoriais referente ao exercícios escolhido, assim como possui um cronômetro para calcular o tempo gasto no exercício escolhido, como também, lá você pode consultar seu IMC. 
+- Neste site você pode consultar alguns exercícios para fazer em casa, com apoio de vídeos e mini tutoriais referente ao exercícios escolhido, assim como possui um cronômetro para calcular o tempo gasto no exercício escolhido, como também, lá você pode consultar seu IMC. 
 
 #### Equipe
 - [Gabrielle Rodrigues](https://github.com/gabrielle-1)
