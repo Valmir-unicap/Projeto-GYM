@@ -135,8 +135,9 @@
             </section>
         </div>
     
-        <section>
-            <div class="cronometro">
+        
+        <div class="cronometro">
+            <section>
                 <h1 id="cronometro_exercitar">Que tal exercitarmos por 15 minutos?</h1>
                 
                 <form name="form_main">
@@ -148,18 +149,21 @@
                     <button id="botao" type="button" name="reset">Reset</button>
                 </form>
                 <script src="assets/js/timer.js"></script> 
-            </div>
-        </section>
+            </section>
+        </div>
+        
     
-        <div class="container">
+        <div class="imc">
             <section>
-                <h1 class="conteudo-titulo">Deseja calcular seu IMC?</h1>
+                <h1 class="imc_titulo">Deseja calcular seu IMC?</h1>
+                <div class="imc_conteudo">
                     <label for="Altura">Altura</label>
-                    <input type="text" value="" name="altura" id="altura" placeholder="cm">
+                    <input class="imc_conteudo_campo" type="text" value="" name="altura" id="altura" placeholder="Digite sua altura">
 
                     <label for="Peso">Peso</label>
-                    <input type="text" value="" name="peso" id="peso" placeholder="kg">
-                <button onclick="calcularIMC()">Calcular</button>
+                    <input class="imc_conteudo_campo" type="text" value="" name="peso" id="peso" placeholder="Digite seu peso">
+                    <button class="imc_conteudo_botao" onclick="calcularIMC()">Calcular</button>
+                </div>
             </section>
         </div>
             
