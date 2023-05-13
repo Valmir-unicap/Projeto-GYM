@@ -32,6 +32,9 @@ body{
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .conteudo{
@@ -46,14 +49,22 @@ body{
     margin: 1rem 1rem 1rem 1rem;
 }
 
-.descricao-home, .conteudo-exercicio{
+.descricao-home{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
     margin: 1rem 1rem 1rem 1rem;
+    line-height: 1.5rem;
+}
+
+.conteudo-exercicio{
+    margin: 1rem 1rem 1rem 1rem;
+    line-height: 1.5rem;
 }
 
 .img-home{
-    display: block;
-    margin: 1rem auto;
-    height: 400px;
+    width: 45%;
+    display: inline-block;
 }
 
 a{
@@ -63,7 +74,7 @@ a{
 
 .link{
     margin-left: 10vh;
-    margin-right: 2vh;
+    margin-right: 1vh;
     cursor: pointer;
 }
 
@@ -119,7 +130,7 @@ a{
     height: 50px;
     font-size: 26px;
     margin-left: 35px;
-    margin-right: 35px;
+    margin-right: 20px;
     border-radius: 50px;
     border-color: black;
 }
@@ -137,7 +148,7 @@ a{
 }
 
 #cronometro_exercitar{
-    font-size: 26px;
+    font-size: auto;
     text-align: center;
 }
 
