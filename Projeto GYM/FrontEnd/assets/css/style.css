@@ -99,12 +99,6 @@ a{
     margin: 10px 10px;
 }
 
-.exercicio {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .conteudo-exercicio {
     display: flex;
     flex-direction: column;
